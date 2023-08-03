@@ -1,0 +1,35 @@
+.maincontainer {
+    height: 100vh;
+    width: 100vw;
+    background: #7f8fa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 15px;
+    background: #c7ecee;
+    height: auto;
+    width: 500px;
+}
+
+.headingtext {
+    display: flex;
+    justify-content: left;
+    font-family: Julee;
+    align-items: center;
+    font-size: 40px;
+}
+.text{
+    margin-top: 10px;
+}
+.tablebox{
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    width: 70vw;
+    height: 70vh;
+    overflow-y: scroll;
+}

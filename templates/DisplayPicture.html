@@ -1,0 +1,14 @@
+<html>
+    <center>
+        <form action="/edit_picture" method="post" enctype="multipart/form-data">{% csrf_token %}
+            <input type="hidden" name="listid" value="{{data.listid.0}}">
+            <input type="hidden" name="oldfile" value="{{data.picture.0}}">
+            <h1>{{data.modelname.0}}</h1><br>
+            <h2>{{data.producttype.0}}</h2><br>
+            <img src="/static/{{data.picture.0}}" width="350"><br><br>
+            <b>Upload New Picture :</b><br><br>
+            <input type="file" required name="picture">
+            <input type="submit" value="Upload Picture">
+        </form>
+    </center>
+</html>
